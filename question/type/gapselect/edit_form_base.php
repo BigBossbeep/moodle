@@ -168,8 +168,8 @@ class qtype_gapselect_edit_form_base extends question_edit_form {
      *
      * @return int the maximum group number.
      */
-    function get_maximum_choice_group_number() {
-        return 8;
+    function get_maximum_choice_group_number(15) {
+        return 15;
     }
 
     /**
